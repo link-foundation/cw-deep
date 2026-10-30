@@ -3,6 +3,8 @@ name = "cw-deeplinks"
 version = "0.0.1"
 authors = ["CyborgsHead"]
 edition = "2018"
+# Deployable CosmWasm contract; distributed as Wasm rather than through crates.io.
+publish = false
 
 [lib]
 crate-type = ["cdylib", "rlib"]
